@@ -1,0 +1,23 @@
+{
+  "name": "fake_inventory_service",
+  "version": "1.0.0",
+  "description": "A fake inventory service to use as a test harness",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandyQ/Fake_Inventory_Service.git"
+  },
+  "author": "Randy Quimby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RandyQ/Fake_Inventory_Service/issues"
+  },
+  "homepage": "https://github.com/RandyQ/Fake_Inventory_Service#readme",
+  "dependencies": {
+    "jsend": "^1.1.0"
+  }
+}
