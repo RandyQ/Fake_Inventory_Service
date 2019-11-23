@@ -39,7 +39,7 @@ app.post('/setcount', function (req, res) {
 // Error middleware
 app.use(function (req, res, next) {
     res.status(404);
-    res.send('404 – Not Found');
+    res.send('404 – Not Found.');
 });
 
 app.listen(app.get('port'), function () {
