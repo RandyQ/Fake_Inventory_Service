@@ -14,6 +14,7 @@ app.use(jsend.middleware);
 
 let itemCount = 20;
 
+// Returns the count of items in inventory
 app.get('/getcount', function (req, res) {
     if (req.query.item) {
         return res.jsend.success({ "quantity": itemCount });
